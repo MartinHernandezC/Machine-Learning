@@ -18,7 +18,7 @@ def graficar(datos):
     ax.hist(datos['raza'], density=True, bins=10)
     ax.set_xlabel('Raza')
     ax.set_ylabel('Densidad')
-    ax.set_title('Distribución normal de edades')
+    ax.set_title('Distribución normal de Razas')
     plt.show()
 
 def interactuar():
